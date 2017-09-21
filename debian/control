@@ -1,0 +1,13 @@
+Source: soulmate-libvirt
+Section: admin
+Priority: optional
+Maintainer: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 7.0.8)
+
+Package: soulmate-libvirt
+Architecture: all
+Depends: libvirt-daemon-system, libvirt-clients, virtinst
+Description: Soulmate libvirt environment
+ This package installs libvirt packages and fixes some
+ issues related to apparmor
